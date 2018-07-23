@@ -6,6 +6,7 @@ public class ItemGenerator : MonoBehaviour {
 
     public GameObject applePrefab;
     public GameObject bombPrefab;
+    public GameObject igaguriPrefab;
     float span = 1.0f;
     float delta = 0;
     int ratio = 2;
@@ -27,6 +28,10 @@ public class ItemGenerator : MonoBehaviour {
             if (dice <= this.ratio)
             {
                 item = Instantiate(bombPrefab) as GameObject;
+            }
+            else if(dice>=this.ratio&&dice<=5)
+            {
+                item = Instantiate(igaguriPrefab) as GameObject;
             }
             else
             {

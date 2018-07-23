@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   appleSE: {fileID: 8300000, guid: 45f528d9b836354459f6ae61608d4006, type: 3}
   bombSE: {fileID: 8300000, guid: 920ce5394af0f1b4b8faa9ed571c6fce, type: 3}
+  igaguriSE: {fileID: 8300000, guid: 45f528d9b836354459f6ae61608d4006, type: 3}
 --- !u!65 &84411483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -787,6 +788,8 @@ MonoBehaviour:
   applePrefab: {fileID: 1089380412690660, guid: 9ca635d5e4aa6f54897bc161a4802818,
     type: 2}
   bombPrefab: {fileID: 1276507142638434, guid: 55f0b6ae67e4ed243a1e1df60b519a15, type: 2}
+  igaguriPrefab: {fileID: 1605785985599576, guid: 120ea6c8a6dbf4145b4fbae883ab40b0,
+    type: 2}
 --- !u!4 &1973654531
 Transform:
   m_ObjectHideFlags: 0
